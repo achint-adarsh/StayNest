@@ -7,6 +7,7 @@ import { logout } from "../../store/User/user-action";
 import toast from "react-hot-toast";
 import { propertyAction } from "../../store/Property/property-slice";
 import { getAllProperties } from "../../store/Property/property-action";
+import staynest from "../../assets/staynest.png"
 import "../../css/AiTripPlanner.css";
 
 const Header = () => {
@@ -32,7 +33,7 @@ const Header = () => {
       <nav className="header row sticky-top ">
         <Link to="/">
           <img
-            src="/assets/logo.png"
+            src={staynest}
             alt="logo"
             className="logo"
             onClick={refreshFunction}

@@ -1,3 +1,7 @@
+body{
+  background: #f1eae3;
+}
+
 .header {
   width: 100%;
   margin: 0 auto;
@@ -48,7 +52,7 @@
   min-width: 0;
   max-width: 34rem;
   background: #fff;
-  box-shadow: 1px 1px 10px lightgray;
+  box-shadow: 1px 1px 10px rgb(217, 197, 149);
 }
 .search {
   border: transparent;
